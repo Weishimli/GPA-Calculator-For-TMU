@@ -1,0 +1,141 @@
+		*{
+			text-align: center;
+		}
+		.header{
+			text-align: left;
+			color: #ffffff;
+			background-color: #004c9b;
+			background-attachment: fixed;
+			background-size: 100%;
+			width:100%;
+			padding:10px;
+			box-sizing: border-box;
+			margin: 0;
+			display:inline-block;
+			padding-left: 30px;
+		}
+		body {
+            margin: 0;
+            padding: 0;
+            background-color: #E5E5E5;
+
+        }
+        table{
+			margin: 6px;
+			border: solid;
+			border-spacing: 0;
+			background-color: #FFFFFF;
+		}
+		tr,td{
+			box-sizing: border-box;
+		}
+		input{
+			outline: none;
+			border: none;
+			box-sizing: border-box;
+			text-align: center;
+		}
+		input[type="text"]{
+			width:100%;
+		}
+		.table-container {
+			display: flex;
+			flex-wrap: wrap;
+			display:inline-block;
+			justify-content: space-between;
+		  }
+
+		.cellItem, .cellMark, .cellWeight{
+			max-width:100px;
+		}
+		.logo{
+			max-width:100%;
+			width:100%;
+			height:auto;
+			display: inline-block;
+			box-sizing: border-box;
+			margin: 0;
+			padding: 5px;
+			text-align: left;
+			background-color: #ffffff;
+
+		}
+		.logopic{
+			width:100px;
+			margin-left: 30px;
+		}
+		.sub-header{
+			border: none;
+			border-bottom: solid;
+			font-size: 15px;
+
+		}
+        .table-header{
+			text-align:center;
+			width:100%;
+			font-size: 20px;
+			font-weight: bold;
+			background-color: #004c9b;
+			color: #ffffff;
+			padding: 5px;
+		}
+		
+		.leftCol-border {
+			border: none;
+			border-bottom: 0.5px dashed;
+			border-right: 0.5px dashed;
+			text-align:center;
+		}
+		.middleCol-border{
+			border-bottom: 0.5px dashed;
+		}
+		.rightCol-border{
+			border-left: 0.5px dashed;
+			border-bottom: 0.5px dashed;
+		}
+		.border-top1{
+			border-top: solid;
+		}
+		.border-bottom1{
+			border-bottom: solid;
+		}
+		.border-right{
+			border-right: solid;
+		}
+		.border-left{
+			border-left: solid;
+			font-weight: bold;
+		}
+		.dashedBorder-left{
+			border-left: 0.5px dashed;
+		}
+		.pad{
+			padding:5px;
+		}
+		.gray{
+			background-color:#d9d9d9;
+			padding:2px;
+			font-weight: bold;
+		}
+		.lightblue{
+			background-color:#F5FBFF;
+			padding:3px;
+			font-weight: bold;
+			font-size: 15px;
+		}
+		.blue{
+			background-color:#BDD5E7;
+			padding:2px;
+			font-weight: bold;
+			font-size: 15px;
+		}
+		
+		input[type="text"]:focus {
+			outline: 3px solid black;
+		}
+		table.center {
+			margin-left: auto;
+			margin-right: auto;
+			margin-top: 50px;
+		}
+		

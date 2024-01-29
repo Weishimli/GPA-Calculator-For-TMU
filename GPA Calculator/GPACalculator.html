@@ -1,0 +1,44 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		
+		<meta charset= "utf-8">
+		<meta name="viewport" content= "width=device-width, initial-scale=1.0">
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+		<link rel="stylesheet" type="text/css" href="Style.css">
+
+		<title>GPA Calculator</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+		<script src="script.js"></script>
+
+
+	</head>
+
+	<body>
+		<span class="logo"><a href="https://www.torontomu.ca/" ><img class="logopic" src="images/TMU-rgb.png"> </a> </span>
+			<h1 class="header">GPA Calculator</h1>
+		
+		<table class="center" id="finalSummary">
+		
+		<tr>
+			<td rowspan="2" class="border-right lightblue">Semester Summary</td>
+			<td class="border-right border-bottom blue">Average Mark: </td>
+			<td class="blue border-bottom" id="finalPercent">0%</td>
+		</tr>
+		
+		<tr>
+			<td class="border-right blue">Average GPA:</td>
+			<td class="blue" id="finalGPA"> 0</td>
+		</tr>
+		
+		</table>
+
+		<input type="button" value="Add table" id="addTable">
+		<input type="button" value="Delete All Tables" id="deleteTablesButton">
+
+		
+	</body>
+
+
+</html>
